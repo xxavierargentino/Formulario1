@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.txtEntrada = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -41,11 +42,19 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "HOLA MUNDO";
             // 
+            // txtEntrada
+            // 
+            this.txtEntrada.Location = new System.Drawing.Point(124, 129);
+            this.txtEntrada.Name = "txtEntrada";
+            this.txtEntrada.Size = new System.Drawing.Size(183, 20);
+            this.txtEntrada.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 420);
+            this.Controls.Add(this.txtEntrada);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -57,6 +66,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtEntrada;
     }
 }
 
